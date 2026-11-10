@@ -1,0 +1,2 @@
+# Amkt VPN free servers — one server link per line (vmess://, vless://, trojan://, ss://)
+# Add a new key: paste its link on a new line, then save (Commit changes).
