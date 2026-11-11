@@ -1,6 +1,0 @@
-# Amkt VPN free servers — one server link per line (vmess://, vless://, trojan://, ss://)
-# Add a new key: paste its link on a new line, then save (Commit changes).
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpUM1k4Z1BEa3RfWUNhOXlrVW0waVd3@34.215.61.168:1080#%F0%9F%9A%80%20TG%40amktvpn%20%28AMKT%29%20%5BShadowsocks%20-%20tcp%5D
-vless://d50c5ef9-61d2-4867-90ca-d0b9e8dfe5de@18.140.163.191:8895?security=none&type=tcp&headerType=&path=&host=#%F0%9F%9A%80%20SG%20TG%40amktvpn%20%28AMKT%29%20%5BVLESS%20-%20tcp%5D
-vmess://eyJhZGQiOiAiMy4xMTUuMjMzLjI1NSIsICJhaWQiOiAiMCIsICJob3N0IjogIiIsICJpZCI6ICIwZmE3MzU3NS02ZWU0LTQzM2MtYjc5MS01ZmEyMjhiZTQ5NmEiLCAibmV0IjogInRjcCIsICJwYXRoIjogIiIsICJwb3J0IjogODgzNCwgInBzIjogIlx1ZDgzZFx1ZGU4MCBKUCBUR0BhbWt0dnBuIChBTUtUKSBbVk1lc3MgLSB0Y3BdIiwgInNjeSI6ICJhdXRvIiwgInRscyI6ICJub25lIiwgInR5cGUiOiAiIiwgInYiOiAiMiJ9
-trojan://ymKKpBPD0WJ0CMmQwo1GSg@18.136.8.44:9443?security=none&type=tcp&headerType=&path=&host=#%F0%9F%9A%80%20SG2%20TG%40amktvpn%20%28AMKT%29%20%5BTrojan%20-%20tcp%5D
