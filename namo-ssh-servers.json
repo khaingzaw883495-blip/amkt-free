@@ -1,0 +1,153 @@
+{
+  "version": 1,
+  "updated": "2026-11-19",
+  "source": "NAMO VPN config v22.4 (free SSH servers, shared account itim/itim)",
+  "servers": [
+    {
+      "name": "Thailand-01",
+      "country": "th",
+      "host": "th1.ohm1.online",
+      "port": 22,
+      "username": "itim",
+      "password": "itim",
+      "type": "ssh-direct",
+      "supported": true
+    },
+    {
+      "name": "Thailand-01(C)",
+      "country": "th",
+      "host": "d3s25b7nfqpdwq.cloudfront.net",
+      "port": 80,
+      "origin": "f1.ohm1.online",
+      "username": "itim",
+      "password": "itim",
+      "type": "ssh-cloudfront",
+      "supported": true,
+      "note": "via CloudFront — works only if the origin accepts direct SSH"
+    },
+    {
+      "name": "Thailand-02",
+      "country": "th",
+      "host": "th2.ohm1.online",
+      "port": 22,
+      "username": "itim",
+      "password": "itim",
+      "type": "ssh-direct",
+      "supported": true
+    },
+    {
+      "name": "Thailand-02(C)",
+      "country": "th",
+      "host": "d1eo13nnpcr499.cloudfront.net",
+      "port": 80,
+      "origin": "f2.ohm1.online",
+      "username": "itim",
+      "password": "itim",
+      "type": "ssh-cloudfront",
+      "supported": true,
+      "note": "via CloudFront — works only if the origin accepts direct SSH"
+    },
+    {
+      "name": "Thailand-03",
+      "country": "th",
+      "host": "th3.ohm1.online",
+      "port": 22,
+      "username": "itim",
+      "password": "itim",
+      "type": "ssh-direct",
+      "supported": true
+    },
+    {
+      "name": "Thailand-03(C)",
+      "country": "th",
+      "host": "d1cd7n56poxrai.cloudfront.net",
+      "port": 80,
+      "origin": "f3.ohm1.online",
+      "username": "itim",
+      "password": "itim",
+      "type": "ssh-cloudfront",
+      "supported": true,
+      "note": "via CloudFront — works only if the origin accepts direct SSH"
+    },
+    {
+      "name": "Thailand-04",
+      "country": "th",
+      "host": "th4.ohm1.online",
+      "port": 22,
+      "username": "itim",
+      "password": "itim",
+      "type": "ssh-direct",
+      "supported": true
+    },
+    {
+      "name": "Thailand-04(C)",
+      "country": "th",
+      "host": "d1e2i3xixu7ee5.cloudfront.net",
+      "port": 80,
+      "origin": "f4.ohm1.online",
+      "username": "itim",
+      "password": "itim",
+      "type": "ssh-cloudfront",
+      "supported": true,
+      "note": "via CloudFront — works only if the origin accepts direct SSH"
+    },
+    {
+      "name": "Thailand-05",
+      "country": "th",
+      "host": "th5.ohm1.online",
+      "port": 22,
+      "username": "itim",
+      "password": "itim",
+      "type": "ssh-direct",
+      "supported": true
+    },
+    {
+      "name": "Thailand-05(C)",
+      "country": "th",
+      "host": "d30zuoh3qsjaj.cloudfront.net",
+      "port": 80,
+      "origin": "f5.ohm1.online",
+      "username": "itim",
+      "password": "itim",
+      "type": "ssh-cloudfront",
+      "supported": true,
+      "note": "via CloudFront — works only if the origin accepts direct SSH"
+    },
+    {
+      "name": "ZCAT_01",
+      "country": "th",
+      "host": "cat1.ohm1.online",
+      "port": 22,
+      "username": "itim",
+      "password": "itim",
+      "type": "ssh-direct",
+      "supported": true
+    },
+    {
+      "name": "Z_My_01",
+      "country": "th",
+      "host": "slow1.ohm1.online",
+      "port": 143,
+      "username": "itim",
+      "password": "itim",
+      "type": "slowdns",
+      "noteserver": "slow1.ohm1.online",
+      "publickey": "526bac803bbb09f19a36ea3e424c62c00f72e0e33308ac3e18dd1d3589d53b71",
+      "supported": false,
+      "reason": "DNSTT — needs a native DNSTT client, not in this build"
+    },
+    {
+      "name": "Z_My_02",
+      "country": "th",
+      "host": "slow2.ohm1.online",
+      "port": 143,
+      "username": "itim",
+      "password": "itim",
+      "type": "slowdns",
+      "noteserver": "slow2.ohm1.online",
+      "publickey": "526bac803bbb09f19a36ea3e424c62c00f72e0e33308ac3e18dd1d3589d53b71",
+      "supported": false,
+      "reason": "DNSTT — needs a native DNSTT client, not in this build"
+    }
+  ]
+}
