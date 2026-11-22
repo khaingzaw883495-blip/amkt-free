@@ -19,7 +19,7 @@ pluginManagement {
 
 plugins {
     id("dev.flutter.flutter-plugin-loader") version "1.0.0"
-    id("com.android.application") version "8.11.1" apply false
+    id("com.android.application") version "9.1.1" apply false
     id("org.jetbrains.kotlin.android") version "2.4.0" apply false
     // v1.0.5: Kotlin 2.4.0 is REQUIRED, not optional — firebase_analytics
     // 13.0.1 pulls play-services-measurement 24.0.0, whose Kotlin metadata
