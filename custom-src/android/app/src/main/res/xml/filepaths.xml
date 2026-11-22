@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- FileProvider paths for the in-app update: the downloaded APK lives in
+     the app cache dir (Directory.systemTemp). -->
+<paths>
+    <cache-path name="apk" path="." />
+</paths>

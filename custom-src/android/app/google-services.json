@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "703262942189",
+    "project_id": "amkt-vpn",
+    "storage_bucket": "amkt-vpn.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:703262942189:android:8a7d932fca37e9a7eafde4",
+        "android_client_info": {
+          "package_name": "com.amkt.vpn"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD46KBE9rHOB3GlGGJWfv9uSBjnviCTBcI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

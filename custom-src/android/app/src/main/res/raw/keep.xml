@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Keep the notification icon: it is referenced ONLY by runtime strings
+     (flutter_local_notifications 'ic_vpn', sing-box notificationIcon), so
+     the resource shrinker cannot see the reference and strips it from the
+     release APK. A missing icon makes FLN initialize() throw — and v1.0.2
+     awaited that init in main() before runApp, so the app never painted
+     (white screen on launch, 2026-11-12). NOTE: this file must live in
+     res/raw/ — the R8-based shrinker (AGP 8) reads keep rules from raw
+     keep.xml files; the same file in res/values/ is compiled into
+     values.arsc and IGNORED by the shrinker (proven: v1.0.3's first
+     build kept ic_vpn stripped despite res/values/keep.xml). Keep this file. -->
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:keep="@drawable/ic_vpn" />
