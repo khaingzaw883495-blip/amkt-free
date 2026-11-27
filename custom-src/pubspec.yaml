@@ -1,7 +1,7 @@
 name: vpn
 description: "Amkt VPN — custom VPN client for Amkt (sing-box core: VLESS, VMess, Trojan, Shadowsocks)."
 publish_to: 'none'
-version: 1.0.10+11
+version: 1.1.0+12
 
 environment:
   sdk: ^3.10.9

@@ -16,7 +16,7 @@ class AmktConfig {
   /// v1.0.7 — FREE servers, read DIRECTLY from the "AMKT Free Servers"
   /// Google Sheet (published as CSV).
   static const String freeServersSheetCsvUrl =
-      'https://docs.google.com/spreadsheets/d/1rJPmAULZqM9M4gICys_EQxUGDGhHmRB2l9DG_xTFR9k/export?format=csv&gid=0';
+      'https://docs.google.com/spreadsheets/d/12l-wE0Oc82ryh8eWmQOLXPLypEQV4ckpdzvM-fLcUMw/export?format=csv&gid=0';
 
   /// Contact / support.
   static const String telegramUrl = 'https://t.me/amktvpn';
@@ -39,6 +39,10 @@ class AmktConfig {
   static const String noAdsValidateUrl =
       'https://n8n.marratethu.web.id/webhook/amkt-noads-validate';
 
+  /// No-ads code sheet managed by the validator service.
+  static const String noAdsCodeSheetCsvUrl =
+      'https://docs.google.com/spreadsheets/d/1ro3OwLlCGLyrgRByqPsIqePSZLLwKG5t4yl6muETPwA/export?format=csv&gid=0';
+
   /// Buyer-only server list (code-gated).
   static const String buyerServersUrl =
       'https://n8n.marratethu.web.id/webhook/amkt-noads-buyer-servers';
@@ -51,8 +55,8 @@ class AmktConfig {
   };
 
   /// This build's own version (must match pubspec.yaml).
-  static const String currentVersion = '1.0.10';
-  static const int currentVersionCode = 11;
+  static const String currentVersion = '1.1.0';
+  static const int currentVersionCode = 12;
 
   /// In-app update check: version.json in the same GitHub repo.
   static const String updateJsonUrl =

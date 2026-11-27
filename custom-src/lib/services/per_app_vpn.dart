@@ -43,9 +43,11 @@ class PerAppVpnService {
   /// filter that hid com.amkt.vpn is removed, on her word). AMKT never
   /// needs selecting (Android always routes the VpnService's own
   /// traffic direct), but she wants it listed anyway.
-  static Future<List<AppInfo>> loadApps() async {
+  static Future<List<AppInfo>> loadApps({
+    bool includeSystemApps = false,
+  }) async {
     return InstalledApps.getInstalledApps(
-      excludeSystemApps: true,
+      excludeSystemApps: !includeSystemApps,
       excludeNonLaunchableApps: true,
       withIcon: true,
       detectPlatformType: false,
@@ -65,8 +67,7 @@ class PerAppVpnService {
 
   /// Saves a new selection AND pushes it to sing-box. Call this on
   /// every toggle, so the stored rules are always current.
-  static Future<void> saveSelection(
-      AppStore store, Set<String> pkgs) async {
+  static Future<void> saveSelection(AppStore store, Set<String> pkgs) async {
     await store.setPerAppPackages(pkgs);
     await applyStoredSelection(store);
   }
